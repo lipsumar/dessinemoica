@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { postTweet } = require('./twitterLib');
 const axios = require('axios')
 
