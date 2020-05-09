@@ -21,7 +21,7 @@ async function scheduled () {
     console.log('Error!', err)
   }
 }
-scheduled(false)
+//scheduled(false)
 cron.schedule('0,10,20,30,40,50 18 * * *', scheduled);
 
 
