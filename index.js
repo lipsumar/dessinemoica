@@ -22,7 +22,7 @@ async function scheduled () {
   }
 }
 //scheduled(false)
-cron.schedule('0,10,20,30,40,50 18 * * *', scheduled);
+cron.schedule('0,10,20,30,40,50 18,20,21,22,23 * * *', scheduled);
 
 
 mentionListener.listenTo(['@dessinemoiceci', '#dessinemoiceci', 'dessinemoiceci'])
