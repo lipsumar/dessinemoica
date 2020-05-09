@@ -25,7 +25,7 @@ scheduled(false)
 cron.schedule('0,10,20,30,40,50 18 * * *', scheduled);
 
 
-mentionListener.listenTo(['@dessinemoiuntruc'])
+mentionListener.listenTo(['@dessinemoiceci', '#dessinemoiceci', 'dessinemoiceci'])
 mentionListener.on('tweet', async (tweet) => {
   console.log('Mention!', tweet.text)
   const text = await getText();
